@@ -1,0 +1,26 @@
+{
+    "name": "lib",
+    "description": "Collection of Javascript classes taken from other open source collections and refactored int dojo/AMD style for use in Dojo projects.",
+    "version": "1.0",
+    "keywords": ["JavaScript", "Dojo", "Toolkit", "DojoX", "AMD", "Dijit"],
+    "maintainers": [{
+        "name": "Stephen Simpson"
+    }],
+    "contributors": [{
+        "name": "Stephen Simpson"
+    }],
+    "licenses": [{
+        "type": "AFLv2.1",
+        "url": "http://bugs.dojotoolkit.org/browser/dojox/trunk/LICENSE#L43"
+    },{
+        "type": "BSD",
+        "url": "http://bugs.dojotoolkit.org/browser/dojox/trunk/LICENSE#L13"
+    }],
+    "dependencies": {
+        "dojo": "~1.8.0",
+        "dijit": "~1.8.0",
+        "dojox": "~1.8.0"
+    },
+    "homepage": "http://www.redcar-cleveland.gov.uk/",
+	"dojoBuild": "lib.profile.js"
+}
